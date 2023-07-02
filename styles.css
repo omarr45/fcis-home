@@ -62,8 +62,7 @@ a {
   color: inherit;
 }
 
-a[target="_blank"]::after,
-{
+a[target='_blank']::after {
   content: '';
   width: 1rem;
   height: 1rem;
