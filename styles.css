@@ -62,8 +62,7 @@ a {
   color: inherit;
 }
 
-a[href^="http"]::after,
-a[href^="https://"]::after
+a[target="_blank"]::after,
 {
   content: '';
   width: 1rem;
